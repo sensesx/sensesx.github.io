@@ -139,12 +139,24 @@ a:hover {
   align-items: center; /* Vertically center text */
 }
 
+.marquee-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 128, 0, 0.1); /* dark green, 50% opacity */
+  padding: 10px 0;
+}
+
+.site-container {
+  padding-top: 80px; /* pushes content below fixed marquee */
+}
+
 .marquee-content {
   display: flex;
   white-space: nowrap;
   animation: scroll-left 30s linear infinite;
-}
-
 
   font-family: 'Share Tech Mono', monospace;
   font-size: 22px;
