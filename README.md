@@ -1,2 +1,1 @@
-# sensesx.github.io
-ayo.
+# vmoraz-web
